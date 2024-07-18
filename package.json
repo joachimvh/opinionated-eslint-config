@@ -1,0 +1,26 @@
+{
+  "name": "opiniated-eslint-config",
+  "version": "0.1.0",
+  "description": "An opinionated linter configuration",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --cache --max-warnings 0",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts"
+  ],
+  "dependencies": {
+    "@antfu/eslint-config": "2.21.3",
+    "eslint-plugin-jest": "28.6.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
+}
