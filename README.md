@@ -1,5 +1,7 @@
 # Opinionated eslint config
 
+[![npm version](https://badge.fury.io/js/opinionated-eslint-config.svg)](https://www.npmjs.com/package/opinionated-eslint-config)
+
 A custom eslint configuration which has strong opinions.
 Because of this, it is recommended to run eslint with the `--cache` option.
 Besides that I also recommend the `--warnings 0` option.
